@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="250sp"
+    android:background="@color/cardview_dark_background">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilepic"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:elevation="6sp"
+        android:src="@drawable/ic_launcher_background"
+        app:civ_border_width="4sp"
+        app:civ_border_color="@color/navigationbar"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Firstname"
+        android:id="@+id/FirstName"
+        android:gravity="left"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:textSize="18sp"
+        android:textColor="@color/background"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EmailID"
+        android:id="@+id/EmailID"
+        android:gravity="left"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:textSize="18sp"
+        android:textColor="@color/background"
+        android:textStyle="bold"
+
+        />
+</LinearLayout>

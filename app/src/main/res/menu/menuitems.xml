@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"/>
+    <item
+        android:id="@+id/vehicledetails"
+        android:title="Vehicle Details"/>
+
+    <item
+        android:id="@+id/myrequests"
+        android:title="My Requests"/>
+    <item
+        android:id="@+id/transactions"
+        android:title="Transactions"/>
+
+    <item
+        android:id="@+id/contactus"
+        android:title="Contact Us"/>
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"/>
+
+
+
+</menu>

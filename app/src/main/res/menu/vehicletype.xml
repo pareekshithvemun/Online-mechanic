@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/bike"
+        android:icon="@drawable/ic_motorcycle_black_10dp"
+        android:title="@string/bike" />
+    <item
+        android:id="@+id/car"
+        android:icon="@drawable/ic_directions_car_black_10dp"
+        android:title="@string/car" />
+    <item
+        android:id="@+id/truck"
+        android:icon="@drawable/ic_airport_shuttle_black_10dp"
+        android:title="@string/truck" />
+    <item
+        android:id="@+id/bus"
+        android:icon="@drawable/ic_directions_bus_black_10dp"
+        android:title="@string/bus" />
+    <item
+        android:id="@+id/other"
+        android:icon="@drawable/ic_brightness_1_black_10dp"
+        android:title="@string/other" />
+
+
+</menu>

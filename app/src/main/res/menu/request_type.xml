@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/quick"
+        android:icon="@drawable/ic_directions_run_black_10dp"
+        android:title="@string/quick" />
+    <item
+        android:id="@+id/standard"
+        android:icon="@drawable/ic_assignment_black_10dp"
+        android:title="@string/standard" />
+    <item
+        android:id="@+id/scheduled"
+        android:icon="@drawable/ic_access_alarm_black_10dp"
+        android:title="@string/scheduled" />
+    <item
+        android:id="@+id/special"
+        android:icon="@drawable/ic_stars_black_10dp"
+        android:title="@string/special" />
+
+
+</menu>
